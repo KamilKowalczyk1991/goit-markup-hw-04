@@ -5,6 +5,7 @@
 }
 
 ::after {
+  content: "";
   width: 100%;
   position: absolute;
   left: 0;
@@ -303,14 +304,13 @@ address .link {
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
-.nav {
-  position: relative;
-  color: #404bbf;
-}
-
 .team-card {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+
+.address-list {
+  color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .benefits-icons {
@@ -349,4 +349,8 @@ address .link {
   box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
     0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
   cursor: pointer;
+}
+
+.portfolio-card a {
+  text-decoration: none;
 }
