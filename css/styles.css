@@ -286,3 +286,34 @@ address .link {
   box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
+
+.benefits-icons {
+  background-color: #f4f4fd;
+  width: 100%;
+  min-height: 112px;
+  border-radius: 4px;
+  border: 1px solid #8e8f99;
+  margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.team-icons {
+  background-color: #4d5ae5;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+}
+
+.team-icons-conteiner {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+
+.team-card {
+}
