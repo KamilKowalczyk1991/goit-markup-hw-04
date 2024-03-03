@@ -187,7 +187,9 @@ footer .logo {
 }
 
 .footer .container {
-  display: block;
+  display: flex;
+  flex-direction: row;
+  gap: 120px;
 }
 
 .logo {
@@ -309,10 +311,6 @@ address .link {
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
-.address-list {
-  color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
 .benefits-icons {
   background-color: #f4f4fd;
   width: 100%;
@@ -345,6 +343,14 @@ address .link {
   margin-bottom: 8px;
 }
 
+.team-card .team-icons:hover {
+  background-color: #31d0aa;
+}
+
+.team-card:hover .team-icons {
+  background-color: #404bbf;
+}
+
 .portfolio-card:hover {
   box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
     0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
@@ -353,4 +359,20 @@ address .link {
 
 .portfolio-card a {
   text-decoration: none;
+}
+
+.socials {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #fff;
+
+  margin-bottom: 16px;
+}
+
+.social-links {
+  display: flex;
+  gap: 16px;
 }
