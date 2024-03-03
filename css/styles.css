@@ -380,13 +380,3 @@ address .link {
 .footer-text {
   margin-right: 120px;
 }
-
-.footer-icon-list {
-  width: 100%;
-  height: 100%;
-  background-color: #4d5ae5;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
