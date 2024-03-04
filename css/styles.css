@@ -446,3 +446,13 @@ address .link {
 .team-icons {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
+.app-card-article {
+  color: #f4f4fd;
+  background-color: #4d5ae5;
+  padding: 40px 32px;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  transform: translateY(100%);
+}
